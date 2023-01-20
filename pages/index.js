@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import data from "../data";
+import Footer from "../components/Footer";
 
 
 
@@ -47,6 +48,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
