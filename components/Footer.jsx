@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-white border-gray-100">
       {/* ===== */}
-      <div className="mt-1 bg-white border-gray-100 shadow-sm border-y">
+      <div className="mt-1 bg-white  border-gray-100 shadow-sm border-y">
         <div className="grid max-w-screen-xl px-4 py-10 mx-auto text-sm text-gray-500  md:grid-cols-3 md:px-6">
           <ul
             className="space-y-4 sm:mb-4 md:mb-0"
