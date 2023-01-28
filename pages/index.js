@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
+import Carousel from "../components/Carousel";
 import data from "../data";
 import Footer from "../components/Footer";
 

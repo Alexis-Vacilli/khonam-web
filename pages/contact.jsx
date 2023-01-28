@@ -59,7 +59,7 @@ function Contact() {
                 <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
                   khonam@info.rw
                 </p>
-                <a
+                <a       
                   href="/a"
                   className="inline-flex items-center text-gray-600 hover:underline"
                 >

@@ -9,23 +9,33 @@ const data = [
         name: "S89",
         title:"Flex like no other",
         description: "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en pag",
-        price: 123
+        price: 123,
+        category: "All"
     },
-    // {   
-    //     image: image1,
-    //     name: "CR1",
-    //     title:"Flex like no other",
-    //     description: "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en pag",
-    //     price: 123
-    // },
-    // {   
-    //     image: image2,
-    //     name: "CR2",
-    //     title:"Flex like no other",
-    //     description: "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en pag",
-    //     price: 123
-    // },
+    {   
+        image: image1,
+        name: "CR1",
+        title:"Flex like no other",
+        description: "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en pag",
+        price: 123,
+        category: "Phones"
+    },
+    {   
+        image: image2,
+        name: "CR2",
+        title:"Flex like no other",
+        description: "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en pag",
+        price: 123,
+        category: "Watches"
+    },
 
 ]
 
 export default data;
+
+export const categories = [
+    {name: "All"},
+    {name: "Phones"},
+    {name: "Watches"}
+];
+
